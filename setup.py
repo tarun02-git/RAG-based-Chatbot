@@ -1,0 +1,26 @@
+from setuptools import setup, find_packages
+
+setup(
+    name="rag-chatbot",
+    version="1.0.0",
+    packages=find_packages(),
+    install_requires=[
+        "langchain>=0.1.12",
+        "langchain-openai>=0.0.8",
+        "langchain-community>=0.0.28",
+        "openai>=1.12.0",
+        "python-dotenv>=1.0.1",
+        "streamlit>=1.32.2",
+        "pandas>=2.2.1",
+        "numpy>=1.26.4",
+        "chromadb>=0.4.24",
+        "tiktoken>=0.6.0",
+        "pypdf>=4.1.0",
+        "python-docx>=1.1.0",
+        "beautifulsoup4>=4.12.3",
+        "pytest>=8.0.2",
+        "black>=24.2.0",
+        "flake8>=7.0.0",
+    ],
+    python_requires=">=3.8",
+)
